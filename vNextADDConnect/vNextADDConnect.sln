@@ -18,11 +18,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishSc
 		PublishScripts\Publish-WebApplicationVM.ps1 = PublishScripts\Publish-WebApplicationVM.ps1
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configurations", "Configurations", "{22E186C0-E9FE-4607-BC3C-F9CB06BC3828}"
-	ProjectSection(SolutionItems) = preProject
-		PublishScripts\Configurations\vNextADDConnectWeb-WAWS-dev.json = PublishScripts\Configurations\vNextADDConnectWeb-WAWS-dev.json
-	EndProjectSection
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 - Presentation", "01 - Presentation", "{4DC96887-842B-4868-8158-2B52B5D16F31}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 - Services", "02 - Services", "{496D8BD5-A624-4A20-8CEE-B80E9B58B981}"
@@ -36,6 +31,11 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06 - Shared", "06 - Shared", "{76C3811B-391B-48C7-8254-A71E6B18F3F5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "07 - Tests", "07 - Tests", "{AB7FFA96-2C87-4931-AFF0-32E2DF0E0C58}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configurations", "Configurations", "{3C17324A-C643-48E1-9998-2C9F306DF1C4}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Configurations\vNextADDConnectWeb-WAWS-dev.json = PublishScripts\Configurations\vNextADDConnectWeb-WAWS-dev.json
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -53,7 +53,6 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{529919AD-8309-40AB-807C-72322F1899D6} = {4DC96887-842B-4868-8158-2B52B5D16F31}
-		{22E186C0-E9FE-4607-BC3C-F9CB06BC3828} = {FD3150D7-823F-4CF4-93ED-CB92D5BB01BB}
 		{4DC96887-842B-4868-8158-2B52B5D16F31} = {FB610A47-52BC-4EEF-AE30-04B7A35694CC}
 		{496D8BD5-A624-4A20-8CEE-B80E9B58B981} = {FB610A47-52BC-4EEF-AE30-04B7A35694CC}
 		{773FC5B0-0D9C-4340-85CB-5CE6DDFA5CFD} = {FB610A47-52BC-4EEF-AE30-04B7A35694CC}
@@ -61,5 +60,6 @@ Global
 		{CF564DB4-FB4C-4658-AE63-ED6E680C69BF} = {FB610A47-52BC-4EEF-AE30-04B7A35694CC}
 		{76C3811B-391B-48C7-8254-A71E6B18F3F5} = {FB610A47-52BC-4EEF-AE30-04B7A35694CC}
 		{AB7FFA96-2C87-4931-AFF0-32E2DF0E0C58} = {FB610A47-52BC-4EEF-AE30-04B7A35694CC}
+		{3C17324A-C643-48E1-9998-2C9F306DF1C4} = {FD3150D7-823F-4CF4-93ED-CB92D5BB01BB}
 	EndGlobalSection
 EndGlobal
