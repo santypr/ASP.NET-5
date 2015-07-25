@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{FB610A47-52BC-4EEF-AE30-04B7A35694CC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7AAF6D91-FC9E-4B36-95E0-93512684D872}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "vNextADDConnect.Web", "src\vNextADDConnect.Web\vNextADDConnect.Web.xproj", "{529919AD-8309-40AB-807C-72322F1899D6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{FD3150D7-823F-4CF4-93ED-CB92D5BB01BB}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\AzureVMPublishModule.psm1 = PublishScripts\AzureVMPublishModule.psm1
+		PublishScripts\Publish-WebApplicationVM.ps1 = PublishScripts\Publish-WebApplicationVM.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configurations", "Configurations", "{22E186C0-E9FE-4607-BC3C-F9CB06BC3828}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Configurations\vNextADDConnectWeb-WAWS-dev.json = PublishScripts\Configurations\vNextADDConnectWeb-WAWS-dev.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 - Presentation", "01 - Presentation", "{4DC96887-842B-4868-8158-2B52B5D16F31}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 - Services", "02 - Services", "{496D8BD5-A624-4A20-8CEE-B80E9B58B981}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 - Domain", "03 - Domain", "{773FC5B0-0D9C-4340-85CB-5CE6DDFA5CFD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04 - Infraestructure", "04 - Infraestructure", "{C289181A-C3B0-4C03-AC17-9FB4C66069BB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05 - Data", "05 - Data", "{CF564DB4-FB4C-4658-AE63-ED6E680C69BF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06 - Shared", "06 - Shared", "{76C3811B-391B-48C7-8254-A71E6B18F3F5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "07 - Tests", "07 - Tests", "{AB7FFA96-2C87-4931-AFF0-32E2DF0E0C58}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{529919AD-8309-40AB-807C-72322F1899D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{529919AD-8309-40AB-807C-72322F1899D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{529919AD-8309-40AB-807C-72322F1899D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{529919AD-8309-40AB-807C-72322F1899D6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{529919AD-8309-40AB-807C-72322F1899D6} = {4DC96887-842B-4868-8158-2B52B5D16F31}
+		{22E186C0-E9FE-4607-BC3C-F9CB06BC3828} = {FD3150D7-823F-4CF4-93ED-CB92D5BB01BB}
+		{4DC96887-842B-4868-8158-2B52B5D16F31} = {FB610A47-52BC-4EEF-AE30-04B7A35694CC}
+		{496D8BD5-A624-4A20-8CEE-B80E9B58B981} = {FB610A47-52BC-4EEF-AE30-04B7A35694CC}
+		{773FC5B0-0D9C-4340-85CB-5CE6DDFA5CFD} = {FB610A47-52BC-4EEF-AE30-04B7A35694CC}
+		{C289181A-C3B0-4C03-AC17-9FB4C66069BB} = {FB610A47-52BC-4EEF-AE30-04B7A35694CC}
+		{CF564DB4-FB4C-4658-AE63-ED6E680C69BF} = {FB610A47-52BC-4EEF-AE30-04B7A35694CC}
+		{76C3811B-391B-48C7-8254-A71E6B18F3F5} = {FB610A47-52BC-4EEF-AE30-04B7A35694CC}
+		{AB7FFA96-2C87-4931-AFF0-32E2DF0E0C58} = {FB610A47-52BC-4EEF-AE30-04B7A35694CC}
+	EndGlobalSection
+EndGlobal
